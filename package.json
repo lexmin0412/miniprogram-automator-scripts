@@ -1,0 +1,41 @@
+{
+  "name": "miniprogram-automator-scripts",
+  "version": "0.0.1",
+  "description": "小程序自动化脚本集合",
+  "main": "dist/bundle.js",
+	"bin": {
+    "mpa": "bin/mp-automator"
+  },
+  "scripts": {
+    "build": "npx rollup --config rollup.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "github",
+    "url": "+git@github.com:lexmin0412/miniprogram-automator-scripts.git"
+  },
+  "keywords": [],
+  "author": "lexmin0412",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lexmin0412/miniprogram-automator-scripts/issues"
+  },
+  "homepage": "https://github.com/lexmin0412/miniprogram-automator-scripts#readme",
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "rollup": "^1.26.0",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-filesize": "^9.1.1",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-typescript": "^1.0.1",
+    "rollup-plugin-uglify": "^6.0.4",
+    "tslib": "^2.3.1",
+    "typescript": "^4.5.2"
+  },
+  "dependencies": {
+    "miniprogram-automator": "^0.11.0",
+    "youtils-node": "^0.0.1"
+  }
+}
