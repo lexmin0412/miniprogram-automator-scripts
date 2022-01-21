@@ -1,3 +1,3 @@
 import launchAutomator from './launchAutomator'
 
-launchAutomator()
+export default launchAutomator
